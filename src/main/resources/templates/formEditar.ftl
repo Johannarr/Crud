@@ -45,7 +45,7 @@
             </br></br>
             </br></br>
             <label for="matricula">Matricula</label>
-            <input type="number" class="form-control" value="${estudiante.matricula?string["0"]}" readoly name="matricula" required>
+            <input type="number" class="form-control" value="${estudiante.matricula?string["0"]}" readonly name="matricula" required>
         </div>
         <div class="form-group">
             <label for="nombre">Nombre</label>
